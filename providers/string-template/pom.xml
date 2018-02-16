@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.walterjwhite.modules.template</groupId>
+        <artifactId>providers</artifactId>
+        <version>0.0.15-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.walterjwhite.modules.template.providers</groupId>
+    <artifactId>string-template</artifactId>
+    <packaging>jar</packaging>
+
+    <name>template - providers - string-template</name>
+    
+    <dependencies>
+        <dependency>
+            <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+            <artifactId>string-template</artifactId>
+            <version>0.0.15-SNAPSHOT</version>
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
+            <artifactId>property</artifactId>
+            <version>0.0.15-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
+            <artifactId>property-test</artifactId>
+            <version>0.0.15-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
