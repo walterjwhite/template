@@ -1,11 +1,11 @@
 package com.walterjwhite.template.providers.stringtemplate.service;
 
-import com.google.inject.Inject;
 import com.walterjwhite.file.impl.service.AbstractTemplateService;
-import com.walterjwhite.google.guice.property.property.Property;
+import com.walterjwhite.property.impl.annotation.Property;
 import com.walterjwhite.template.providers.stringtemplate.property.StringTemplateDelimeterStartChar;
 import com.walterjwhite.template.providers.stringtemplate.property.StringTemplateDelimeterStopChar;
 import java.util.Map;
+import javax.inject.Inject;
 import org.stringtemplate.v4.ST;
 
 public class StringTemplateTemplateService extends AbstractTemplateService {

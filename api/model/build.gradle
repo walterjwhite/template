@@ -1,0 +1,5 @@
+group = 'com.walterjwhite.modules.template.api'
+description = 'template - API - model'
+dependencies {
+  compile project(':infrastructure:datastore:api:model')
+}

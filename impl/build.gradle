@@ -1,0 +1,5 @@
+group = 'com.walterjwhite.modules.template'
+description = 'template - impl'
+dependencies {
+  compile project(':infrastructure:datastore:api:service')
+}

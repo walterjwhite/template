@@ -1,13 +1,10 @@
 package com.walterjwhite.template.providers.stringtemplate.service;
 
+import lombok.Data;
+import lombok.ToString;
+
+@Data
+@ToString(doNotUseGetters = true)
 public class ValueObject {
   protected String name;
-
-  public String getName() {
-    return name;
-  }
-
-  public void setName(String name) {
-    this.name = name;
-  }
 }

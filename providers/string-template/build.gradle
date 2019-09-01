@@ -1,0 +1,7 @@
+group = 'com.walterjwhite.modules.template.providers'
+description = 'template - providers - string-template'
+dependencies {
+  compile project(':infrastructure:dependencies:string-template')
+  compile project(':infrastructure:datastore:modules:property')
+  testCompile project(':infrastructure:datastore:modules:property-test')
+}
